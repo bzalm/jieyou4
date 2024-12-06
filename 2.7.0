@@ -1,0 +1,108 @@
+Looking in indexes: https://mirrors.aliyun.com/pypi/simple/
+Collecting paddleocr
+  Downloading https://mirrors.aliyun.com/pypi/packages/ff/92/e92fd1bc67c562b653f0eff37379e96b77c7e318c90a637e6f586d4eb532/paddleocr-2.9.1-py3-none-any.whl (544 kB)
+     -------------------------------------- 544.7/544.7 kB 9.1 MB/s eta 0:00:00
+Collecting shapely (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/7b/b3/857afd9dfbfc554f10d683ac412eac6fa260d1f4cd2967ecb655c57e831a/shapely-2.0.6-cp312-cp312-win_amd64.whl (1.4 MB)
+     ---------------------------------------- 1.4/1.4 MB 14.9 MB/s eta 0:00:00
+Collecting scikit-image (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/d9/17/b561823143eb931de0f82fed03ae128ef954a9641309602ea0901c357f95/scikit_image-0.24.0-cp312-cp312-win_amd64.whl (12.9 MB)
+     --------------------------------------- 12.9/12.9 MB 14.8 MB/s eta 0:00:00
+Collecting imgaug (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/66/b1/af3142c4a85cba6da9f4ebb5ff4e21e2616309552caca5e8acefe9840622/imgaug-0.4.0-py2.py3-none-any.whl (948 kB)
+     ------------------------------------- 948.0/948.0 kB 21.4 MB/s eta 0:00:00
+Collecting pyclipper (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/24/3a/7d6292e3c94fb6b872d8d7e80d909dc527ee6b0af73b753c63fdde65a7da/pyclipper-1.3.0.post6-cp312-cp312-win_amd64.whl (110 kB)
+Collecting lmdb (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/bb/14/087787e751f3f816604776ec416c4b4a7887f5bc5484fa603eb5444a1226/lmdb-1.5.1-cp312-cp312-win_amd64.whl (100 kB)
+Requirement already satisfied: tqdm in c:\python312\lib\site-packages (from paddleocr) (4.66.6)
+Requirement already satisfied: numpy<2.0 in c:\python312\lib\site-packages (from paddleocr) (1.26.4)
+Collecting rapidfuzz (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/58/b6/c5f5e8043052fdbd4aa4f41d93b0e72d089172237ed5ec42118683a9833a/rapidfuzz-3.10.1-cp312-cp312-win_amd64.whl (1.6 MB)
+     ---------------------------------------- 1.6/1.6 MB 10.7 MB/s eta 0:00:00
+Requirement already satisfied: opencv-python in c:\python312\lib\site-packages (from paddleocr) (4.8.0.76)
+Collecting opencv-contrib-python (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/a7/9e/7110d2c5d543ab03b9581dbb1f8e2429863e44e0c9b4960b766f230c1279/opencv_contrib_python-4.10.0.84-cp37-abi3-win_amd64.whl (45.5 MB)
+     --------------------------------------- 45.5/45.5 MB 16.7 MB/s eta 0:00:00
+Collecting cython (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/35/00/78ffea3a0ab176267a25ff049518b2582db7ac265bbf27944243d1a81ce2/Cython-3.0.11-cp312-cp312-win_amd64.whl (2.8 MB)
+     ---------------------------------------- 2.8/2.8 MB 14.8 MB/s eta 0:00:00
+Requirement already satisfied: Pillow in c:\python312\lib\site-packages (from paddleocr) (10.4.0)
+Requirement already satisfied: pyyaml in c:\python312\lib\site-packages (from paddleocr) (6.0.2)
+Collecting python-docx (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/3e/3d/330d9efbdb816d3f60bf2ad92f05e1708e4a1b9abe80461ac3444c83f749/python_docx-1.1.2-py3-none-any.whl (244 kB)
+Requirement already satisfied: beautifulsoup4 in c:\python312\lib\site-packages (from paddleocr) (4.12.3)
+Collecting fonttools>=4.24.0 (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/aa/d1/5f007861cab890f2a35a19a1d2a2815655ec10b0ea7fd881b1d3aaab0076/fonttools-4.55.0-cp312-cp312-win_amd64.whl (2.2 MB)
+     ---------------------------------------- 2.2/2.2 MB 13.8 MB/s eta 0:00:00
+Collecting fire>=0.3.0 (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/6b/b6/82c7e601d6d3c3278c40b7bd35e17e82aa227f050aa9f66cb7b7fce29471/fire-0.7.0.tar.gz (87 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: requests in c:\python312\lib\site-packages (from paddleocr) (2.31.0)
+Collecting albumentations==1.4.10 (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/cd/32/bd07379e94989874cb017d33f51e56fb7240728ee268dba29321af1a9775/albumentations-1.4.10-py3-none-any.whl (161 kB)
+Collecting albucore==0.0.13 (from paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/74/0d/927bb0b50d57169d2c74477f2de9982210550e6c6837074ca737e2339de5/albucore-0.0.13-py3-none-any.whl (8.5 kB)
+Collecting tomli>=2.0.1 (from albucore==0.0.13->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/ef/60/9b9638f081c6f1261e2688bd487625cd1e660d0a85bd469e91d8db969734/tomli-2.2.1-cp312-cp312-win_amd64.whl (109 kB)
+Requirement already satisfied: typing-extensions>=4.9.0 in c:\python312\lib\site-packages (from albucore==0.0.13->paddleocr) (4.12.2)
+Collecting opencv-python-headless>=4.9.0.80 (from albucore==0.0.13->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/26/d0/22f68eb23eea053a31655960f133c0be9726c6a881547e6e9e7e2a946c4f/opencv_python_headless-4.10.0.84-cp37-abi3-win_amd64.whl (38.8 MB)
+     --------------------------------------- 38.8/38.8 MB 15.8 MB/s eta 0:00:00
+Collecting scipy>=1.10.0 (from albumentations==1.4.10->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/aa/7d/43ab67228ef98c6b5dd42ab386eae2d7877036970a0d7e3dd3eb47a0d530/scipy-1.14.1-cp312-cp312-win_amd64.whl (44.5 MB)
+     --------------------------------------- 44.5/44.5 MB 15.3 MB/s eta 0:00:00
+Collecting scikit-learn>=1.3.2 (from albumentations==1.4.10->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/aa/ce/c0b912f2f31aeb1b756a6ba56bcd84dd1f8a148470526a48515a3f4d48cd/scikit_learn-1.5.2-cp312-cp312-win_amd64.whl (11.0 MB)
+     ---------------------------------------- 11.0/11.0 MB 3.0 MB/s eta 0:00:00
+Requirement already satisfied: pydantic>=2.7.0 in c:\python312\lib\site-packages (from albumentations==1.4.10->paddleocr) (2.10.1)
+Collecting termcolor (from fire>=0.3.0->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/7f/be/df630c387a0a054815d60be6a97eb4e8f17385d5d6fe660e1c02750062b4/termcolor-2.5.0-py3-none-any.whl (7.8 kB)
+Collecting networkx>=2.8 (from scikit-image->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl (1.7 MB)
+     ---------------------------------------- 1.7/1.7 MB 18.7 MB/s eta 0:00:00
+Requirement already satisfied: imageio>=2.33 in c:\python312\lib\site-packages (from scikit-image->paddleocr) (2.36.0)
+Collecting tifffile>=2022.8.12 (from scikit-image->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/50/0a/435d5d7ec64d1c8b422ac9ebe42d2f3b2ac0b3f8a56f5c04dd0f3b7ba83c/tifffile-2024.9.20-py3-none-any.whl (228 kB)
+Requirement already satisfied: packaging>=21 in c:\python312\lib\site-packages (from scikit-image->paddleocr) (24.2)
+Collecting lazy-loader>=0.4 (from scikit-image->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/83/60/d497a310bde3f01cb805196ac61b7ad6dc5dcf8dce66634dc34364b20b4f/lazy_loader-0.4-py3-none-any.whl (12 kB)
+Requirement already satisfied: soupsieve>1.2 in c:\python312\lib\site-packages (from beautifulsoup4->paddleocr) (2.6)
+Requirement already satisfied: six in c:\python312\lib\site-packages (from imgaug->paddleocr) (1.16.0)
+Collecting matplotlib (from imgaug->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/d2/92/c2b9464a0562feb6ae780bdc152364810862e07ef5e6affa2b7686028db2/matplotlib-3.9.2-cp312-cp312-win_amd64.whl (7.8 MB)
+     ---------------------------------------- 7.8/7.8 MB 15.6 MB/s eta 0:00:00
+Requirement already satisfied: lxml>=3.1.0 in c:\python312\lib\site-packages (from python-docx->paddleocr) (5.3.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\python312\lib\site-packages (from requests->paddleocr) (2.0.12)
+Requirement already satisfied: idna<4,>=2.5 in c:\python312\lib\site-packages (from requests->paddleocr) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\python312\lib\site-packages (from requests->paddleocr) (1.26.20)
+Requirement already satisfied: certifi>=2017.4.17 in c:\python312\lib\site-packages (from requests->paddleocr) (2024.8.30)
+Requirement already satisfied: colorama in c:\python312\lib\site-packages (from tqdm->paddleocr) (0.4.6)
+Requirement already satisfied: annotated-types>=0.6.0 in c:\python312\lib\site-packages (from pydantic>=2.7.0->albumentations==1.4.10->paddleocr) (0.7.0)
+Requirement already satisfied: pydantic-core==2.27.1 in c:\python312\lib\site-packages (from pydantic>=2.7.0->albumentations==1.4.10->paddleocr) (2.27.1)
+Collecting joblib>=1.2.0 (from scikit-learn>=1.3.2->albumentations==1.4.10->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/91/29/df4b9b42f2be0b623cbd5e2140cafcaa2bef0759a00b7b70104dcfe2fb51/joblib-1.4.2-py3-none-any.whl (301 kB)
+Collecting threadpoolctl>=3.1.0 (from scikit-learn>=1.3.2->albumentations==1.4.10->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/4b/2c/ffbf7a134b9ab11a67b0cf0726453cedd9c5043a4fe7a35d1cefa9a1bcfb/threadpoolctl-3.5.0-py3-none-any.whl (18 kB)
+Collecting contourpy>=1.0.1 (from matplotlib->imgaug->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/a1/35/c2de8823211d07e8a79ab018ef03960716c5dff6f4d5bff5af87fd682992/contourpy-1.3.1-cp312-cp312-win_amd64.whl (220 kB)
+Collecting cycler>=0.10 (from matplotlib->imgaug->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Collecting kiwisolver>=1.3.1 (from matplotlib->imgaug->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/19/93/c05f0a6d825c643779fc3c70876bff1ac221f0e31e6f701f0e9578690d70/kiwisolver-1.4.7-cp312-cp312-win_amd64.whl (55 kB)
+Collecting pyparsing>=2.3.1 (from matplotlib->imgaug->paddleocr)
+  Downloading https://mirrors.aliyun.com/pypi/packages/be/ec/2eb3cd785efd67806c46c13a17339708ddc346cbb684eade7a6e6f79536a/pyparsing-3.2.0-py3-none-any.whl (106 kB)
+Requirement already satisfied: python-dateutil>=2.7 in c:\python312\lib\site-packages (from matplotlib->imgaug->paddleocr) (2.9.0.post0)
+Building wheels for collected packages: fire
+  Building wheel for fire (pyproject.toml): started
+  Building wheel for fire (pyproject.toml): finished with status 'done'
+  Created wheel for fire: filename=fire-0.7.0-py3-none-any.whl size=114264 sha256=9060b102beae98df944ae7f0152b4932b929db888c4f36084a5a88c8c1ca9426
+  Stored in directory: c:\users\administrator\appdata\local\pip\cache\wheels\8b\32\24\b89d3b5dee1b3a3f34497b8169c1947cd478752a98513482dc
+Successfully built fire
+Installing collected packages: pyclipper, lmdb, tomli, tifffile, threadpoolctl, termcolor, shapely, scipy, rapidfuzz, python-docx, pyparsing, opencv-python-headless, opencv-contrib-python, networkx, lazy-loader, kiwisolver, joblib, fonttools, cython, cycler, contourpy, scikit-learn, scikit-image, matplotlib, fire, albucore, imgaug, albumentations, paddleocr
+Successfully installed albucore-0.0.13 albumentations-1.4.10 contourpy-1.3.1 cycler-0.12.1 cython-3.0.11 fire-0.7.0 fonttools-4.55.0 imgaug-0.4.0 joblib-1.4.2 kiwisolver-1.4.7 lazy-loader-0.4 lmdb-1.5.1 matplotlib-3.9.2 networkx-3.4.2 opencv-contrib-python-4.10.0.84 opencv-python-headless-4.10.0.84 paddleocr-2.9.1 pyclipper-1.3.0.post6 pyparsing-3.2.0 python-docx-1.1.2 rapidfuzz-3.10.1 scikit-image-0.24.0 scikit-learn-1.5.2 scipy-1.14.1 shapely-2.0.6 termcolor-2.5.0 threadpoolctl-3.5.0 tifffile-2024.9.20 tomli-2.2.1
